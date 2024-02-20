@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TaskONe.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+</head>
+<body>
+
+    <!------------ Start Navbar Section-------------->
+
+<section>
+    <nav class="bg-gray-700 p-4">
+        <div class="container mx-auto flex justify-between items-center px-4 md:px-12 lg:px-32">
+            <div>
+                <a href="#">
+                    <img src="logo.png" alt="" class="h-16 w-16">
+                </a>        
+            </div>
+    
+            <div class="hidden sm:flex space-x-8">
+                <a href="#" class="text-white">Product</a>
+                <a href="#" class="text-white">Contact Us</a>
+                <a href="#" class="text-white">About Us</a>
+                <a href="#" class="text-white">Login</a>
+            </div>
+    
+            <!-- Mobile Menu Toggle -->
+            <div class="sm:hidden">
+                <button id="mobile-menu-button" class="text-white text-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden sm:fixed bg-white p-4   absolute top-0 right-0 mt-20 w-full ">
+        <div class="flex flex-col items-center">
+            <a href="#" class="block text-black my-2">Product</a>
+            <a href="#" class="block text-black my-2">Contact Us</a>
+            <a href="#" class="block text-black my-2">About Us</a>
+            <a href="#" class="block text-black my-2">Login</a>
+        </div>
+       
+    </div>
+</section>
+ 
+  <!------------ End Navbar Section-------------->
+
+  <!------- Start Provide security section -------->
+
+    <section>
+        <div class="bg-gray-950 py-8 md:py-12 lg:py-20">
+                <h1 class="text-[40px] md:text-[50px] lg:text-[80px] font-bold text-white leading-tight text-center">We Provide <br> Security</h1>
+                <p class="text-center txet-xl lg:text-[17px] text-white mt-6">
+                    We are a modern hosting provider with a strong <br>
+                    focus on privacy and support.
+                </p>
+                <div class=" flex flex-col items-center justify-items-center  md:flex md:flex-row justify-center gap-6 mt-14">
+                    <div>
+                        <button class="text-white bg-green-500 py-2 px-3 text-xl rounded-full border-1 border-blue-700">View Products</button>
+                    </div>
+                    <div>
+                        <button class="bg-gray-900 rounded-full py-2 px-3 text-xl text-white ">Login to your account</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+ <!--------- End Provide security secion ----------->
+
+
+
+ <!----------Why Use Section Start----------->
+
+        <section>
+            <div class="bg-gray-900 py-20">
+                    <h1 class="text-center text-white text-[38px] font-bold">Why should you choose us? </h1>
+                    <p class="text-[16px] text-center text-white">Convince yourself of our high quality products. </p>
+
+                    <!-- Card Section -->
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 mx-auto gap-16 my-10 max-w-4xl">
+                        <card class="py-8 px-6 shadow-2xl bg-gray-900 rounded-xl ">
+                            <div class="flex justify-center">
+                                <div class="aqua-bg py-3 px-4 rounded inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M232 170h-10V72a22 22 0 0 0-22-22H56a22 22 0 0 0-22 22v98H24a6 6 0 0 0-6 6v16a22 22 0 0 0 22 22h176a22 22 0 0 0 22-22v-16a6 6 0 0 0-6-6ZM46 72a10 10 0 0 1 10-10h144a10 10 0 0 1 10 10v98H46Zm180 120a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10v-10h196ZM150 88a6 6 0 0 1-6 6h-32a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6Z"/></svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-2xl my-4 text-center">Custom Webinterface  </h3>
+                                <p class="text-center text-gray-300">Effortlessly manage everything, <br>
+                                    from billing to ddos protection <br>
+                                    settings, using our brand new <br>
+                                    intuitive web interface.
+                                </p>
+                            </div>
+                           
+                        </card>
+                        <card class="py-8 px-6 shadow-2xl bg-gray-900 rounded-xl ">
+                            <div class="flex justify-center">
+                                <div class="aqua-bg py-3 px-4 rounded inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M232 170h-10V72a22 22 0 0 0-22-22H56a22 22 0 0 0-22 22v98H24a6 6 0 0 0-6 6v16a22 22 0 0 0 22 22h176a22 22 0 0 0 22-22v-16a6 6 0 0 0-6-6ZM46 72a10 10 0 0 1 10-10h144a10 10 0 0 1 10 10v98H46Zm180 120a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10v-10h196ZM150 88a6 6 0 0 1-6 6h-32a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6Z"/></svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-2xl my-4 text-center ">Premium DDoS-Protection   </h3>
+                                <p class="text-center text-gray-300">
+                                        We offer a large number of <br>
+                                        protections for our customers, <br>
+                                        including CosmicGuard, Path.net, <br>
+                                        Combahton, Synlinq Arbor and Voxility.
+                                </p>
+                            </div>
+                           
+                        </card>
+                        <card class="py-8 px-6 shadow-2xl bg-gray-900 rounded-xl ">
+                            <div class="flex justify-center">
+                                <div class="aqua-bg py-3 px-4 rounded inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M232 170h-10V72a22 22 0 0 0-22-22H56a22 22 0 0 0-22 22v98H24a6 6 0 0 0-6 6v16a22 22 0 0 0 22 22h176a22 22 0 0 0 22-22v-16a6 6 0 0 0-6-6ZM46 72a10 10 0 0 1 10-10h144a10 10 0 0 1 10 10v98H46Zm180 120a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10v-10h196ZM150 88a6 6 0 0 1-6 6h-32a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6Z"/></svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-2xl my-4 text-center ">Fast Support   </h3>
+                                <p class="text-center text-gray-300">
+                                    Our first priority is the satisfaction <br>
+                                    of our customers. Our support team <br>
+                                    is working around the clock to help <br>
+                                    our customers with any issue they may <br>
+                                    experience.
+                                </p>
+                            </div>
+                           
+                        </card>
+                        <card class="py-8 px-6 shadow-2xl bg-gray-900 rounded-xl ">
+                            <div class="flex justify-center">
+                                <div class="aqua-bg py-3 px-4 rounded inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M232 170h-10V72a22 22 0 0 0-22-22H56a22 22 0 0 0-22 22v98H24a6 6 0 0 0-6 6v16a22 22 0 0 0 22 22h176a22 22 0 0 0 22-22v-16a6 6 0 0 0-6-6ZM46 72a10 10 0 0 1 10-10h144a10 10 0 0 1 10 10v98H46Zm180 120a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10v-10h196ZM150 88a6 6 0 0 1-6 6h-32a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6Z"/></svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-2xl my-4 text-center "> Quick and Secure Storage   </h3>
+                                <p class="text-center text-gray-300">
+                                    All products utilize NVMe disks, <br>
+                                    to ensure rapid access and transfer <br>
+                                    speeds, additionally, all servers <br>
+                                    are back-upped daily to two seperate  <br>
+                                    offsite locations.
+                                </p>
+                            </div>
+                           
+                        </card>
+                        <card class="py-8 px-6 shadow-2xl bg-gray-900 rounded-xl ">
+                            <div class="flex justify-center">
+                                <div class="aqua-bg py-3 px-4 rounded inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M232 170h-10V72a22 22 0 0 0-22-22H56a22 22 0 0 0-22 22v98H24a6 6 0 0 0-6 6v16a22 22 0 0 0 22 22h176a22 22 0 0 0 22-22v-16a6 6 0 0 0-6-6ZM46 72a10 10 0 0 1 10-10h144a10 10 0 0 1 10 10v98H46Zm180 120a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10v-10h196ZM150 88a6 6 0 0 1-6 6h-32a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6Z"/></svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-2xl my-4 text-center "> High Connectivity    </h3>
+                                <p class="text-center text-gray-300">
+                                    All of our servers are connected <br>
+                                    with at least 2x 10 Gbit/s, ensuring <br>
+                                    optimal speeds for any kind of project. 
+                                    
+                                    
+                                </p>
+                            </div>
+                           
+                        </card>
+                        <card class="py-8 px-6 shadow-2xl bg-gray-900 rounded-xl ">
+                            <div class="flex justify-center">
+                                <div class="aqua-bg py-3 px-4 rounded inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="currentColor" d="M232 170h-10V72a22 22 0 0 0-22-22H56a22 22 0 0 0-22 22v98H24a6 6 0 0 0-6 6v16a22 22 0 0 0 22 22h176a22 22 0 0 0 22-22v-16a6 6 0 0 0-6-6ZM46 72a10 10 0 0 1 10-10h144a10 10 0 0 1 10 10v98H46Zm180 120a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10v-10h196ZM150 88a6 6 0 0 1-6 6h-32a6 6 0 0 1 0-12h32a6 6 0 0 1 6 6Z"/></svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-2xl my-4 text-center ">Prepaid </h3>
+                                <p class="text-center text-gray-300">
+                                    All of our products are 100% <br>
+                                    prepaid, if you do not want to <br>
+                                    renew the server, it will be <br>
+                                    cancelled automatically.
+                                </p>
+                            </div>
+                           
+                        </card>
+                    </div>
+                    <div class="flex justify-center my-8">
+                        <button class="text-white bg-blue-700 py-3 text-lg px-8 rounded">View Products</button>
+                    </div>
+            </div>
+            
+        </section>
+
+
+ <!----------Why Use Section End----------->
+
+
+ <!----------Best Pricing Section Start------------->
+    <section>
+
+        <div class="bg-gray-950 py-20">
+            <div>
+                <h1 class="text-center text-[40px] font-bold text-white">Best pricing</h1>
+                <p class="text-[16px] text-center text-white mt-4"  >You can start very cheap and get high performant servers.  </p>
+            </div>
+            <div class="flex justify-center mt-5">
+                <button class="bg-green-500 text-white py-2 px-6 text-xl rounded ">
+                    All prices
+                </button>
+            </div>
+            <div class="py-12 flex items-center flex-col xl:flex-row px-2 gap-4 max-w-5xl m-auto">
+                <card class="bg-white shadow-2xl border border-white flex-1 w-full xl:w-auto rounded-xl">
+                    <div class="py-6 text-center  rounded-t-xl flex-1 w-full aqua-bg">PRO</div>
+                    <div>
+                        <div class="py-12 text-surface text-center">€ <span class="text-4xl font-bold">5</span> / month</div>
+                        <div class="px-6">
+                            <ul class="text-center text-gray-600 space-y-2">
+                                <li class="py-2 border-b">2 CPU cores</li>
+                                <li class="py-2 border-b">25 GB SSD Storage</li>
+                                <li class="py-2 border-b">2 GiB RAM</li>
+                                <li class="py-2 border-b">KVM Virtuallization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </card>
+                <card class="bg-white shadow-2xl border border-white flex-1 w-full xl:w-auto rounded-xl">
+                    <div class="py-6 text-center rounded-t-xl flex-1 w-full aqua-bg">SMALL</div>
+                    <div>
+                        <div class="py-12 text-surface text-center">€ <span class="text-4xl font-bold">5</span> / month</div>
+                        <div class="">
+                            <ul class="text-center text-gray-600">
+                                <li class="py-4 even:bg-gray-50 border-b">2 CPU cores</li>
+                                <li class="py-4 even:bg-gray-50 border-b">25 GB SSD Storage</li>
+                                <li class="py-4 even:bg-gray-50 border-b">2 GiB RAM</li>
+                                <li class="py-4 even:bg-gray-50 border-b">KVM Virtuallization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </card>
+                <card class="bg-white shadow-2xl flex-1 border border-white w-full xl:w-auto rounded-xl">
+                    <div class="py-6 text-center bg-surface text-white rounded-t-xl flex-1 w-full bg-gray-900">EXTREME</div>
+                    <div>
+                        <div class="py-12 text-surface text-center">€ <span class="text-4xl font-bold">5</span> / month</div>
+                        <div class="px-6">
+                            <ul class="text-center text-gray-600 space-y-2">
+                                <li class="py-2 border-b">2 CPU cores</li>
+                                <li class="py-2 border-b">25 GB SSD Storage</li>
+                                <li class="py-2 border-b">2 GiB RAM</li>
+                                <li class="py-2 border-b">KVM Virtuallization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </card>
+            </div>       
+         </div>
+    </section>
+
+
+
+ <!----------Best Pricing Section End------------->
+
+
+
+ <!--------Start Webinterface Features Section--------->
+
+        <section>
+            <div class="bg-gray-900 py-14">
+                    <h1 class="text-center text-[42px] text-white font-bold ">Webinterface Features</h1>
+                    <p class="text-center text-gray-300 text-[20px] mt-2">Discover a breathless experience in Server Management </p>
+                    <div class="flex justify-center px-3 md:px-24 lg:px-40 xl:px-60 mt-10">
+                        <img src="webinterface-8075801a.jpg" alt="">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-2 py-2 max-w-3xl m-auto  gap-4 my-12">
+                        <card class="gap-3 p-4 flex items-center">
+                            <div class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="space-y-1">
+                                <h2 class="text-sm text-white font-semibold">Insights</h2>
+                                <p class="text-xs text-white"> We provide our clients with many forms of statistics, so you can detect
+                                    bottlenecks or problems instantly </p>
+                            </div>
+                        </card>
+                        <card class="gap-3 p-4 flex items-center">
+                            <div class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="space-y-1">
+                                <h2 class="text-sm text-white font-semibold">Server Management</h2>
+                                <p class="text-xs text-white">Manage all your products easily in one single web interface</p>
+                            </div>
+                        </card>
+                        <card class="gap-3 p-4 flex items-center">
+                            <div class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="space-y-1">
+                                <h2 class="text-sm text-white font-semibold">DDoS Protection</h2>
+                                <p class="text-xs text-white">You can configure DDoS Protection settings and view incoming attacks
+                                    easily via our webinterface
+                                </p>
+                            </div>
+                        </card>
+                        <card class="gap-3 p-4 flex items-center">
+                            <div class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="space-y-1">
+                                <h2 class="text-sm text-white font-semibold">Payment Methods</h2>
+                                <p class="text-xs text-white">Our web interface offers many payment methods, including PayPal,
+                                    Cryptocurrency, Credit Card and more
+                                </p>
+                            </div>
+                        </card>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="text-white text-lg px-6 py-2 rounded bg-blue-700">Create An Account</button>
+                    </div>
+            </div>
+        </section>
+
+  <!--------End Webinterface Features Section--------->
+
+
+
+  <!-------Start Footer--------->
+
+        <footer>
+            <div class="bg-gray-950 py-12 space-y-4">
+                <div class="grid max-w-5xl  m-auto px-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="p-4">
+                        <div>
+                            <img class="h-[14vh]  w-auto" src="logo.png"  alt="">
+                        </div>
+                        <div class="py-2 flex items-center gap-2">
+                            <a href="https://discord.gg/pfcloud" class="text-gray-400 hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M464 66.52A50 50 0 0 0 414.12 17L97.64 16A49.65 49.65 0 0 0 48 65.52V392c0 27.3 22.28 48 49.64 48H368l-13-44l109 100ZM324.65 329.81s-8.72-10.39-16-19.32C340.39 301.55 352.5 282 352.5 282a139 139 0 0 1-27.85 14.25a173.31 173.31 0 0 1-35.11 10.39a170.05 170.05 0 0 1-62.72-.24a184.45 184.45 0 0 1-35.59-10.4a141.46 141.46 0 0 1-17.68-8.21c-.73-.48-1.45-.72-2.18-1.21c-.49-.24-.73-.48-1-.48c-4.36-2.42-6.78-4.11-6.78-4.11s11.62 19.09 42.38 28.26c-7.27 9.18-16.23 19.81-16.23 19.81c-53.51-1.69-73.85-36.47-73.85-36.47c0-77.06 34.87-139.62 34.87-139.62c34.87-25.85 67.8-25.12 67.8-25.12l2.42 2.9c-43.59 12.32-63.44 31.4-63.44 31.4s5.32-2.9 14.28-6.77c25.91-11.35 46.5-14.25 55-15.21a24 24 0 0 1 4.12-.49a205.62 205.62 0 0 1 48.91-.48a201.62 201.62 0 0 1 72.89 22.95s-19.13-18.15-60.3-30.45l3.39-3.86s33.17-.73 67.81 25.16c0 0 34.87 62.56 34.87 139.62c0-.28-20.35 34.5-73.86 36.19Z">
+                                    </path>
+                                    <path fill="currentColor"
+                                        d="M212.05 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.8 0 24.7-11.83 24.7-26.57c.25-14.76-10.9-26.57-24.7-26.57Zm88.38 0c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.81 0 24.7-11.83 24.7-26.57S314 218 300.43 218Z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://t.me/teamaggro" class="text-gray-400 hover:text-white"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 16 16">
+                                    <path fill="currentColor"
+                                        d="M4.671 0c.88 0 1.733.247 2.468.702a7.423 7.423 0 0 1 6.02 2.118a7.372 7.372 0 0 1 2.167 5.215c0 .344-.024.687-.072 1.026a4.662 4.662 0 0 1 .6 2.281a4.645 4.645 0 0 1-1.37 3.294A4.673 4.673 0 0 1 11.18 16c-.84 0-1.658-.226-2.37-.644a7.423 7.423 0 0 1-6.114-2.107A7.374 7.374 0 0 1 .529 8.035c0-.363.026-.724.08-1.081a4.644 4.644 0 0 1 .76-5.59A4.68 4.68 0 0 1 4.67 0zm.447 7.01c.18.309.43.572.729.769a7.07 7.07 0 0 0 1.257.653c.492.205.873.38 1.145.523c.229.112.437.264.615.448c.135.142.21.331.21.528a.872.872 0 0 1-.335.723c-.291.196-.64.289-.99.264a2.618 2.618 0 0 1-1.048-.206a11.44 11.44 0 0 1-.532-.253a1.284 1.284 0 0 0-.587-.15a.717.717 0 0 0-.501.176a.63.63 0 0 0-.195.491a.796.796 0 0 0 .148.482a1.2 1.2 0 0 0 .456.354a5.113 5.113 0 0 0 2.212.419a4.554 4.554 0 0 0 1.624-.265a2.296 2.296 0 0 0 1.08-.801c.267-.39.402-.855.386-1.327a2.09 2.09 0 0 0-.279-1.101a2.53 2.53 0 0 0-.772-.792A7.198 7.198 0 0 0 8.486 7.3a1.05 1.05 0 0 0-.145-.058a18.182 18.182 0 0 1-1.013-.447a1.827 1.827 0 0 1-.54-.387a.727.727 0 0 1-.2-.508a.805.805 0 0 1 .385-.723a1.76 1.76 0 0 1 .968-.247c.26-.003.52.03.772.096c.274.079.542.177.802.293c.105.049.22.075.336.076a.6.6 0 0 0 .453-.19a.69.69 0 0 0 .18-.496a.717.717 0 0 0-.17-.476a1.374 1.374 0 0 0-.556-.354a3.69 3.69 0 0 0-.708-.183a5.963 5.963 0 0 0-1.022-.078a4.53 4.53 0 0 0-1.536.258a2.71 2.71 0 0 0-1.174.784a1.91 1.91 0 0 0-.45 1.287c-.01.37.076.736.25 1.063z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="text-gray-400 hover:text-white" href="mailto:contact@pfcloud.io">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6m-2 0l-8 5l-8-5h16m0 12H4V8l8 5l8-5v10Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="py-2">
+                            <p class="text-sm text-gray-400">Design and coded with <span class="text-red-500">❤</span></p>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-lg text-gray-100 uppercase">About us</h2>
+                        <div class="py-2 flex flex-col">
+                            <a class="text-gray-400 text-sm py-2" href="/impressum">Impressum
+                            </a>
+                            <a class="text-gray-400 text-sm py-2" href="/">Datenschutzerklärung</a><a
+                                class="text-gray-400 text-sm py-2" href="/">Allgemeine Geschäftsbedingungen</a><a
+                                class="text-gray-400 text-sm py-2" href="/">Status</a><a class="text-gray-400 text-sm py-2"
+                                href="/">Looking Glass
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-lg text-gray-100 uppercase">support</h2>
+                        <div class="py-2 flex flex-col"><a class="text-gray-400 text-sm py-2"
+                                href="/todo-add-support-url">Support</a><a class="text-gray-400 text-sm py-2"
+                                href="/qna">Q&amp;A
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-lg text-gray-100 uppercase">products &amp; information</h2>
+                        <div class="py-2 flex flex-col"><a class="text-gray-400 text-sm py-2" href="#">Pricing</a><a
+                                class="text-gray-400 text-sm py-2" href="#">DDoS Protection</a><a
+                                class="text-gray-400 text-sm py-2" href="#">Data center</a><a class="text-gray-400 text-sm py-2"
+                                href="#">Network</a><a class="text-gray-400 text-sm py-2" href="#">Hardware
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+  <!-------End Footer--------->
+
+
+</body>
+</html>
+<script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
